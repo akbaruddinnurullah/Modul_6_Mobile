@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/header"
+        android:text="Update Data"
+        android:fontFamily="@font/gotham"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textColor="#9affffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa"
+        />
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextId"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="ID Mahasiswa"
+        android:inputType="text|number"/>
+
+    <TextView
+        android:textColor="#9affffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#96ffffff"
+        android:text="Nama Mahasiswa" />
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNama"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="Nama Mahasiswa"
+        android:inputType="textPersonName"
+        android:maxLines="1"/>
+
+    <TextView
+        android:textColor="#9affffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan" />
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextJurusan" />
+
+    <TextView
+        android:textColor="#9affffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Mahasiswa"
+        android:id="@+id/buttonUpdate" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Mahasiswa"
+        android:id="@+id/buttonDelete" />
+
+</LinearLayout>
